@@ -1,0 +1,105 @@
+.site-footer {
+    display: none;
+}
+
+body{
+    color: #3c3c47;
+}
+
+.side-bar {
+    background-image: linear-gradient(to right, rgba(112, 176, 189, 1), rgba(210, 229, 252, 1)) !important;
+}
+
+.site-title:hover {
+    background-image: none !important;
+}
+
+.breadcrumb-nav-list-item a, .main-content .anchor-heading svg, .site-header .icon, .search-label .search-icon, .search-input:focus .search-icon {
+  color: #4ab1cb;
+}
+
+.breadcrumb-nav-list-item a:hover {
+    text-decoration: none!important;
+    background-image: none;
+}
+
+.nav-list-item a, .nav-list .nav-list-item .nav-list-expander {
+    color: #3c3c47;
+}
+
+.nav-list .nav-list-item .nav-list-expander{
+    margin-right: 10px;
+}
+
+.nav-list .nav-list-item .nav-list-expander:hover{
+    background: #4ab1cb;
+    color: #fff;
+}
+
+.nav-list .nav-list-item .nav-list-link.active{
+    background: #1d8296!important;
+    color: #fff!important;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link:hover {
+    background: #4ab1cb;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.main-content p {
+    text-align: justify;
+}
+
+.search-result-title .search-result-doc, .search-result-doc .search-result-icon, .search-result-section{
+    color: #4ab1cb;
+}
+
+.search-result-previews{
+    color: #3c3c47;
+}
+
+.search-result-doc.search-result-doc-parent {
+    opacity: 1;
+}
+
+@media (max-width: 799px) {
+    .side-bar {
+        background:#FAF9F6!important;
+        border-bottom: 1px solid #4ab1cb;
+    }
+}
+
+@media (min-width: 50rem) and (min-width: 31.25rem){
+    .nav-list .nav-list-item {
+        font-size: 16px!important;
+        margin-bottom: 7px;
+        margin-top: 7px;
+    }}
+
+@media (min-width: 50rem){
+    .site-header {
+    height: 100px;
+    max-height: 100px;
+    border-bottom: none;
+    padding-top: 10px;}
+
+    .main-header {
+        height: 80px;
+    }
+
+    .search-input{
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 66.5rem) {
+    .site-header{
+    width: 300px;
+    }
+}
+
