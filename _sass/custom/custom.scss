@@ -84,6 +84,42 @@ body{
     opacity: 1;
 }
 
+//color of anchor tags
+div#top a{
+color: #4ab1cb;
+}
+
+//Styling buttonsin header
+.aux-nav .aux-nav-list-item {
+    padding-top: 1rem;
+    padding-bottom: 1.25rem;
+}
+
+a.site-button {
+    background-color: #4ab1cb;
+    color: white!important;
+    border-radius: 5px;
+    padding: 17px 21px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.site-button:hover {
+    background-image: none;
+    background-color: #1d8296;
+}
+
+body .side-bar .site-header .icon {
+    color: white;
+}
+
+//Left margin in sidebar items
+.nav-list .nav-list-item .nav-list-link.active {
+ margin-left: 10px;
+}
+
+
 @media (max-width: 799px) {
     //changes the background of sidebar in mobile view
     .side-bar {
@@ -122,6 +158,16 @@ body{
     .search-input{
         font-size: 16px;
     }
+    
+    //width of content area
+    .main {
+    max-width: 80rem;
+    }
+    
+    //spacing between search bar and button in header
+    .main-header {
+    column-gap: 0.1rem;
+    }
 }
 
 
@@ -130,5 +176,15 @@ body{
     .site-header{
     width: 300px;
     }
+    
+    //reduces sidebar width
+    .side-bar {
+    width: 330px;
+    min-width: 300px;
+    }
+    //Reduces space between sidebar and content area
+    .main {
+    margin-left: 320px;
+    }    
 }
 
